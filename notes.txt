@@ -1,0 +1,24 @@
+1: namaste react code repo: https://github.com/namastedev/namaste-react
+2: netflix code repo: https://github.com/akshaymarch7/netflix-gpt
+3: youtube code repo: https://github.com/akshaymarch7/namaste-youtube
+
+***************************************************************************
+ <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script> 
+    **************************************************************************
+npm init
+npm install -D parcel
+caret(^)(major upgrade) and tilde(~)(minor upgrade) in package.json
+
+npx parcel index.html
+npm install react
+npm install react-dom
+
+prod build ->
+npx parcel build index.html(remove main:app.js from package.json)
